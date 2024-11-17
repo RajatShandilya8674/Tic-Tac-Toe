@@ -1,0 +1,112 @@
+*{
+    margin:  0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#container{
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: red; */
+    gap: 3.5rem;
+}
+
+#btnkeeper{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* background-color: bisque; */
+    gap: 1vmin;
+    /* border:2px solid rgb(104, 34, 12); */
+
+}
+
+.box{
+    height: 17vmin;
+    width: 17vmin;
+    direction: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    background-color: rgb(104, 34, 12);
+    border: none;
+    /* box-shadow:12px 12p 12px 12px rgb(0, 0, 0, 0.5px); */
+    color: white;
+    font-size: 50px;
+}
+
+.box.lneThrough{
+    height: 17vmin;
+    width: 17vmin;
+    direction: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    background-color: rgb(104, 34, 12);
+    border: none;
+    /* box-shadow:12px 12p 12px 12px rgb(0, 0, 0, 0.5px); */
+    color: white;
+    font-size: 50px;
+    text-decoration: line-through;
+}
+
+#rstbtn{
+    height: 5vmin;
+    width: 18vmin;
+    background-color: rgb(43, 42, 34);
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 15px;
+}
+
+#msgbox{
+    height: 35vh;
+    width: 50vw;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(215, 247, 37); */
+}
+
+.hide{
+    display: none;
+}
+
+#winmsg{
+    font-size: 50px;
+    font-weight: bold;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-style: italic;
+}
+
+#newgamebtn{
+    height: 6vmin;
+    width: 18vmin;
+    background-color: rgb(79, 24, 24);
+    color: rgb(224, 216, 216);
+    border-radius: 0.5rem;
+    font-size: 17px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* .lneThrough{
+    text-decoration: line-through;
+} */
+
